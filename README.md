@@ -5,4 +5,4 @@ This Chrome extension set 'display: block' of (hidden) divs (with class/id debug
 
 
 For NetBeans use this Code-Template:
-<div>echo "<div class='dev' style='display: none;'><pre>",print_r(${cursor}),"</pre></div>";</div>
+`echo "<div class='dev' style='display: none;'><pre>",print_r(${cursor}),"</pre></div>";`
