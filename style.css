@@ -1,0 +1,17 @@
+.debug, #debug, .dev, #dev {
+	top: 0;
+	left: 0;
+	width: 98%;
+	padding: 1%;
+	min-height: 10%;
+	max-height: 40%;
+	display: block !important;
+	position: fixed;
+	z-index: 99999;
+	color: #fff;
+	font-size: 12px;
+	font-family: Arial, sans-serif;
+	overflow: auto;
+	background-color: #000;
+	border-bottom: #fff;
+}

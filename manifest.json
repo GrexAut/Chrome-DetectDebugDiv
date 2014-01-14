@@ -1,0 +1,15 @@
+{
+	"manifest_version": 2,
+
+	"name": "Detect Debug Div",
+	"description": "This extension set 'display: block' of hidden divs (with class/id debug or dev) to view the php print out",
+	"version": "1.0",
+	
+	"content_scripts": [
+		{
+			"matches": ["http://*/*"],
+			"css": ["style.css"]
+		}
+	]
+
+}
